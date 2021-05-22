@@ -1,0 +1,38 @@
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+
+.approval-section h1{
+	text-align: center;
+	font-weight: 700;
+	color: rgb(0,0,0);
+	text-transform: uppercase;
+}
+
+.approval-section h1::after{
+	content:'';
+	background-color: #19b6cf; 
+	display: block;
+	height: 3px;
+	width: 170px;
+	margin: 20px auto 1px;
+}
+
+/* Styling for Navigation Bar */
+.nav-link{
+	color: black;
+	font-weight: 600;
+}
+.navbar-brand{
+	color: black;
+	font-weight: 800;
+	font-size: 30px;
+}
+/* Styling for footer*/
+footer a:hover{
+    width: 45px;
+    transition: 3s;
+}
